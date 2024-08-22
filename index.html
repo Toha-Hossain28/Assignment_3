@@ -40,7 +40,7 @@
     >
       <!-- navbar -->
       <nav class="max-w-6xl mx-auto flex items-center justify-between mb-10">
-        <div class="flex gap-2 self-start">
+        <div class="flex gap-2 justify-center items-center self-center">
           <div
             class="bg-[#ABEF5F] rounded-full w-[32px] h-[32px] flex justify-center items-center"
           >
@@ -106,7 +106,7 @@
         >
           View Details
           <i
-            class="fa-solid fa-arrow-right -rotate-45 ml-2 bg-[#ABEF5F] rounded-full text-white p-1"
+            class="fa-solid fa-arrow-right -rotate-45 ml-2 bg-[#ABEF5F] rounded-full text-black p-1"
           ></i>
         </button>
       </section>
@@ -114,8 +114,83 @@
     <!-- main -->
     <main>
       <!-- About Us -->
-      <section class="bg-[#f4f4f4] mx-auto max-w-[1440px] h-10 mt-32 relative">
+      <section
+        class="bg-[#f4f4f4] mx-auto max-w-[1440px] mt-10 lg:mt-32 pb-28 relative px-5 lg:px-0 text-center lg:text-left"
+      >
         <!-- bg design div -->
+        <div class="top-8 left-24 hidden xl:absolute">
+          <img src="./assets/Vector.png" alt="" />
+        </div>
+        <!-- content div -->
+        <div
+          class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 py-8 lg:py-24 gap-9"
+        >
+          <!-- left div -->
+          <div>
+            <div
+              class="badge text-[#494949] font-bold text-base px-4 py-2 h-auto rounded-full mb-2"
+            >
+              <i class="fa-solid fa-arrow-right mr-2"></i>About Us
+            </div>
+            <h2
+              class="text-[#212121] font-bold text-2xl lg:text-[40px] mb-4 lg:mb-6 leading-[55px]"
+            >
+              We design thoughtful,<br />
+              liveable spaces
+            </h2>
+            <p
+              class="text-[#494949] font-medium text-sm lg:text-base mb-6 leading-[26px]"
+            >
+              The barn house captivates with its blend of rustic charm and
+              <br class="hidden lg:static" />
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+            <!-- card container div -->
+            <div class="space-y-6">
+              <!-- card 1 -->
+              <div class="flex gap-6 items-center bg-[#FFFFFF] p-6 rounded-2xl">
+                <div class="self-start">
+                  <img src="./assets/commercial.png" alt="" />
+                </div>
+                <div>
+                  <h4
+                    class="text-[#494949] font-extrabold text-xl text-left mb-[10px]"
+                  >
+                    Commercial
+                  </h4>
+                  <p class="text-[#737373] font-medium text-base text-left">
+                    The barn house captivates with its blend
+                    <br class="hidden lg:inline" />
+                    of rustic charm and modern.
+                  </p>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="flex gap-6 items-center bg-[#FFFFFF] p-6 rounded-2xl">
+                <div class="self-start">
+                  <img src="./assets/residential.png" alt="" />
+                </div>
+                <div>
+                  <h4
+                    class="text-[#494949] font-extrabold text-xl text-left mb-[10px]"
+                  >
+                    Residential
+                  </h4>
+                  <p class="text-[#737373] font-medium text-base text-left">
+                    The barn house captivates with its blend
+                    <br class="hidden lg:inline" />
+                    of rustic charm and modern.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- right div -->
+          <div>
+            <img class="h-full" src="./assets/Rectangle.png" alt="" />
+          </div>
+        </div>
       </section>
     </main>
     <!-- footer -->
